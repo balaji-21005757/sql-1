@@ -1,8 +1,8 @@
-Experiment 1
-Aim:
+## Experiment 1
+## Aim:
 To create SQL query to fetch "FIRST_NAME" from the worker table using the alias namefrom the sample.
 
-Algorithm:
+## Algorithm:
 1.Start MYSQL Workbench.
 
 2.Create a database to store your data.
@@ -14,6 +14,7 @@ Algorithm:
 5.Insert values and apply logic to visualize the output.
 
 Program:
+```
 CREATE DATABASE ORG;
 SHOW DATABASES;
 USE ORG;
@@ -74,5 +75,6 @@ INSERT INTO Title
  (006, 'Lead', '2016-06-11 00:00:00'),
  (003, 'Lead', '2016-06-11 00:00:00');
 SELECT FIRST_NAME AS WORKER_NAME FROM Worker;
-Result:
+```
+## Result:
 Therefore we have successfully created a SQL query to fetch "FIRST_NAME" from the worker table using the alias namefrom the sample.
