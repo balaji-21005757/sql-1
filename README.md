@@ -76,5 +76,8 @@ INSERT INTO Title
  (003, 'Lead', '2016-06-11 00:00:00');
 SELECT FIRST_NAME AS WORKER_NAME FROM Worker;
 ```
+## Output 
+![image](https://github.com/balaji-21005757/sql-1/assets/94372294/4a2b86ab-3983-4db2-8e8f-c498c3ee71ec)
+
 ## Result:
 Therefore we have successfully created a SQL query to fetch "FIRST_NAME" from the worker table using the alias namefrom the sample.
